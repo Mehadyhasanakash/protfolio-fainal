@@ -74,20 +74,17 @@ export const navigation = [
 export const social = [
   {
     icon: <FiYoutube />,
-    href: '',
+    href: 'https://www.youtube.com/channel/UCD_yUavpJBzoB6oE8xI4LjA',
   },
   {
     icon: <FiInstagram />,
-    href: '',
+    href: 'https://www.instagram.com/hasanmdmehady/',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/Mehadyhasanakash',
   },
-  {
-    icon: <FiDribbble />,
-    href: '',
-  },
+  
 ];
 
 // companies
@@ -257,12 +254,12 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at mehadyhasan1000@gmail.com',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
+    subtitle: 'Chittagong, Bangladesh',
+    
   },
 ];

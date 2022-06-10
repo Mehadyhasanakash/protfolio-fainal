@@ -1,7 +1,8 @@
 import React from 'react';
 
-// import woman image
-import WomanImg from '../assets/img/banner-woman2.webp';
+import Typical from "react-typical";
+
+
 
 const Hero = () => {
   return (
@@ -15,19 +16,44 @@ const Hero = () => {
             <p className='text-lg text-accent text-md mb-[22px]'>
               Hey, I'm Mehady Hasan! 👋
             </p>
-            <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
-              I Build & Design <br /> Web Interfaces.
+            <h1 className='text-3xl leading-[44px] md:text-3xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
+
+
+              I am a
+              {""}
+                            <h1>
+                                {""}
+                                <Typical
+                                    loop={Infinity}
+                                    steps={[
+                                        "Full Stack Developer",
+                                        1000,
+                                        "MERN Stack Developer",
+                                        1000,
+                                        "React/ReactNative Developer",
+                                        1000,
+                                    ]}
+
+                                />
+                            </h1>
+
+
+
+
+
             </h1>
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
-              Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore
-              dolor elit.
+            Frontend web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization..
             </p>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-              Work with me
-            </button>
+
+            <a href="Resume_ Md Mehady Hasan Akash.pdf" download="Resume_ Md Mehady Hasan Akash.pdf">
+                            <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>GetResume</button>
+
+                        </a>
+            
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
-            <img src={WomanImg} alt='' />
+            <img src="https://i.ibb.co/8cqkNFY/Md-Mehady-Hasan-Akash.png" alt='' />
           </div>
         </div>
       </div>
